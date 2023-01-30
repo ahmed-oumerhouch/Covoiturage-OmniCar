@@ -1,0 +1,94 @@
+#btn_envoyer{
+  position: relative;
+  padding: 15;
+  float: right;
+}
+
+#nouveau_message{
+  width: 90%;
+}
+
+.block_nouveau_message{
+  width: 60%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow-y:auto;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  border-radius: 15px;
+  position: inherit;
+  float:right;
+  padding: 10;
+  margin-top: -40px;
+}
+
+.destinataire {
+  width: 40%;
+  height: 15%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow-y:hidden;
+  overflow-x: auto;
+  text-overflow: ellipsis;
+  border-radius: 15px;
+  border: lightslategrey solid 5px;
+  margin-bottom: 10;
+  padding-top: -5px;
+}
+
+
+.block_destinataires {
+  width: 35%;
+  height: 83%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: auto;
+  overflow-y:auto;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  border-radius: 15px;
+  margin-bottom: 60;
+  padding: 5px;
+  position: inherit;
+  float:left;
+}
+
+.block_message {
+  width: 60%;
+  height: 70%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: auto;
+  overflow-y:auto;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  border-radius: 15px;
+  border: green solid 5px;
+  margin-bottom: 60;
+  padding: 5px;
+  position: inherit;
+  float:right;
+}
+
+.msg_gauche{
+  position: inherit;
+  text-align: left;
+}
+
+.msg_droite{
+  position: inherit;
+  text-align: right;
+}
+
+h4{
+  width: 100%;
+  position: inherit;
+  border: 3px solid orange;
+  padding: 9px;
+  border-radius: 15px;
+}
+
+h1{
+  position: inherit;
+  padding-left: 60px;
+}

@@ -1,0 +1,214 @@
+.zone {
+    /*cursor:pointer;*/
+    color:black;
+    border-radius:4px;
+    /*transition: all 0.3s linear;*/
+}
+.push{
+    margin-left: auto;
+
+}
+/*.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}*/
+body{
+    margin:auto 0; 
+    font-family: Arial;
+
+}
+
+.white{
+    background: white; /* Old browsers */
+
+}
+.blue{
+    background: white; /* Old browsers */
+    background: -moz-linear-gradient(top, white 0%, white 44%, white 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+}
+
+li{
+    padding:20px;
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration:none; /*pour enlever le soulignement*/
+}
+.main-nav{
+    display: flex;
+    list-style: none; /* pour enlever les points */
+    font-size: 0.7em;
+    margin: 0;
+}
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	 position: static;
+    width:620px;
+     height:445px;
+   }
+
+   .grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr)); 
+
+}
+/*.box > img{
+    width: 100%;
+
+}*/
+.box{
+    background-color: white;
+    padding: 30px;
+    margin:15px;
+    border-radius:24px;
+    border:3px solid green;
+}
+.yellow{
+    background: #F3AAAA; /* Old browsers */
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+}
+footer{
+    text-align: center;
+}
+@media screen 
+  and (max-width: 600px){ 
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    width:380px;
+     height:245px;
+   }
+}
+
+.dropbtn {
+  background-color: white;
+  color: white;
+  padding: 6px;
+  font-size: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown > h1::after{
+  margin-left: 15px;
+  margin-right: 15px;
+  content:" ▼";
+  border:1px solid green;
+  border-radius:5px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size:1.5em;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.dropdown-content-d {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content-d a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size:1.5em;
+}
+
+.dropdown-content-d a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content-d {
+  display: block;
+}
+
+button {
+  /* pour centrer le boutton */
+  cursor:pointer;
+  display: block;
+  margin : auto;
+  border-radius:12px;
+  padding: 8px;
+  color: orange;
+  background-color: white;
+  border:1px solid orange; 
+}
+#site-search{
+  margin-top: 16px; 
+  font-size: 15px;
+}
+.center{
+margin-left: 10%;
+font-size: 20px;
+}
+#btnBleu{
+  margin-top: 18px;
+  margin-left: 300px;
+  cursor:pointer;
+  display: block;
+  border-radius:12px;
+  padding: 8px;
+  color: blue;
+  background-color: white;
+  border:1px solid blue; 
+
+}
+input{
+    border-radius:12px;
+    width: 250px;
+    height: 32px;
+
+
+}
