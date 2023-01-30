@@ -1,4 +1,4 @@
-# Covoiturage-OMNIcar
+# Covoiturage-OmniCar
 projet de session automne 2020
 
 
